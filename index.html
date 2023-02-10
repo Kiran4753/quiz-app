@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <!--starting page start-->
+        <div class="image-container">
+            <img src="./img/quiz-img.png" alt="img" >
+        </div>
+
+        <button id="start-btn" class="start-btn">start</button>
+        <!--starting page end-->
+
+        <!--category page start-->
+        <div class="category hide">
+            category
+        </div>
+        <div class="category-container hide">
+            <button id="category-btn" value="gk">General Knowledge</button>
+            <button id="category-btn" value="history">History</button>
+            <button id="category-btn" value="science">Science</button>
+        </div>
+        <!--category page end-->
+        <!--question page start-->
+        <div class="top-container hide">
+            <div class="score">Score: <span id="score">0</span></div>
+        </div>
+        
+        <div id="question-container" class=" question-container hide">
+            ship of the desert ?
+        </div>
+
+        <div class="answer-container hide">
+            <button id="answer-btn" value="a"></button>
+            <button id="answer-btn" value="b"></button>
+            <button id="answer-btn" value="c"></button>
+            <button id="answer-btn" value="d"></button>
+        </div>
+
+        <button id="next-btn" class="next-btn hide">next</button>
+        <!--question page end-->
+    </div>
+
+
+    <!--script tags-->
+    <script src="./sciencequestion.js"></script>
+    <script src="./gkquestion.js"></script>
+    <script src="./historyquestion.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

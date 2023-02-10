@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    padding: 10px 30px;
+    height: 600px;
+    width: 350px;
+    border-radius: 10px;
+    /* Created with https://www.css-gradient.com */
+    background: #BAE6FD;
+    background: -webkit-radial-gradient(center, #BAE6FD, #0285C8);
+    background: -moz-radial-gradient(center, #BAE6FD, #0285C8);
+    background: radial-gradient(ellipse at center, #BAE6FD, #0285C8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* starting page start */
+.image-container{
+    margin-top: 100px;
+}
+
+img{
+    width: 350px;
+}
+
+.start-btn{
+    display: block;
+    padding: 5px 10px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 100px;
+    background-color: transparent;
+    border: 2px solid #0c4a6e;
+    border-radius: 10px;
+}
+
+.start-btn:hover{
+    background-color: white;
+    cursor: pointer;
+}
+/* starting page end */
+
+/* category page start */
+.category{
+    height: 20%;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+.category-container{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.category-container button{
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding: 5px 10px;
+    font-family: cursive;
+    background-color: transparent;
+    border: 2px solid #0c4a6e;
+    border-radius: 10px;
+}
+
+.category-container button:hover{
+    background-color: #0c4a6e;
+    color: white;
+    cursor: pointer;
+}
+/* category page end */
+
+/* question page start */
+.top-container{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.back-btn{
+    display: block;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-family: cursive;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.top-container button:hover{
+    background-color: #0c4a6e;
+    border-radius: 5px;
+    color: white;
+}
+
+.question-container{
+    height: 100px;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+
+.answer-container{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.answer-container button{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: block;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: cursive;
+    word-wrap: break-word;
+}
+
+.next-btn{
+    display: block;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: cursive;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    border: 3px solid #0c4a6e;
+    border-radius: 10px;
+}
+
+.next-btn:hover{
+    cursor: pointer;
+    background-color: white;
+}
+/* question page end */
+
+.hide{
+    display: none;
+}
